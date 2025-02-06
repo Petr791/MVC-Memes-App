@@ -108,7 +108,9 @@ body {
     border-color: #000000;
 }
 
-.settings__select option {}
+.settings__select option {
+    border: 1px solid #4c4c4c;
+}
 
 .text-field {
     margin-bottom: 54px;
@@ -214,7 +216,7 @@ body {
         gap: 30px;
     }
     .settings__select {
-        padding: 8px 10px;
+        padding: 8px 21px 10px;
         font-size: 20px;
         line-height: 24px;
     }
