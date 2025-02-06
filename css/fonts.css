@@ -1,0 +1,22 @@
+@font-face {
+    font-family: Montserrat-local;
+    src: url("../fonts/Montserrat/Montserrat-Regular.ttf");
+}
+
+@font-face {
+    font-weight: 700;
+    font-family: Montserrat-local;
+    src: url("../fonts/Montserrat/Montserrat-Bold.ttf");
+}
+
+@font-face {
+    font-weight: 400;
+    font-family: IBM-Plex-Sans-local;
+    src: url("../fonts/IBM_Plex_Sans/IBMPlexSans-Regular.ttf");
+}
+
+@font-face {
+    font-weight: 700;
+    font-family: IBM-Plex-Sans-local;
+    src: url("../fonts/IBM_Plex_Sans/IBMPlexSans-Bold.ttf");
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./img/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+    <title>MVC Memes App</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+    <div class="app">
+        <div class="container">
+            <div class="row">
+                <!-- col-settings -->
+                <div class="col col-settings">
+                    <h2 class="col__title">Настройки:</h2>
+                    <div class="col-settings__inner settings">
+                        <!-- select -->
+                        <label for="settings-select" class="settings__label">Мем</label>
+                        <div id="settings-select-wrapper" class="settings__select-wrapper">
+                            <select id="settings-select" class="settings__select"></select>
+                        </div>
+                        <!-- input -->
+                        <div class="text-field">
+                            <label class="text-field__label" name="">Текст сверху</label>
+                            <input id="input-top-text" class="text-field__input" type="text" placeholder="" value="Нельзя просто так" maxlength="25">
+                        </div>
+                        <div class="text-field text-field--last">
+                            <label class="text-field__label" name="">Текст снизу</label>
+                            <input id="input-bottom-text" class="text-field__input" type="text" placeholder="" value="Взять и..." maxlength="25">
+                        </div>
+
+                        <div class="color-field">
+                            <input class="color-field__input" type="color" id="colorPicker" name="head" value="#ffffff" />
+                            <label class="color-field__label" for="colorPicker">Изменить цвет текста</label>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- /col-settings -->
+
+                <!-- col-preview -->
+                <div class="col  col-preview">
+                    <h2 class="col__title">Превью:</h2>
+
+                    <div class="preview">
+                        <p id="preview-top-text" class="preview__text preview__text-top"></p>
+                        <p id="preview-bottom-text" class="preview__text preview__text-bottom"></p>
+                        <div id="preview-img-box" class="preview__img-wrapper">
+                            <!-- Если используется тег img -->
+                            <!-- <img id="preview-img" class="preview__img" src="" alt="картинка мема"> -->
+                        </div>
+                    </div>
+                </div>
+                <!-- /col-preview -->
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/api.js"></script>
+    <script src="./js/model.js"></script>
+    <script src="./js/view.js"></script>
+    <script src="./js/controller.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
