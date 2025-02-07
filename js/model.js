@@ -29,7 +29,7 @@ class Model {
     // запись массива мемов
     setMemes(memes) {
         this.memes = memes;
-        this.currentMemeId = memes[27].id;
+        this.currentMemeId = memes[28].id;
         this.onMemesChange();
         this.onCurrentMemeIdChange();
     }
